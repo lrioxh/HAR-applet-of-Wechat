@@ -1,4 +1,5 @@
-##Human Activity Recognition Applet of Wechat
+## Human Activity Recognition Applet of Wechat
+
 
 This is a project of applying HAR from scratch, including:
 
@@ -9,4 +10,5 @@ This is a project of applying HAR from scratch, including:
 + **data recording applet**, used for collecting dataset to train and test model
 + **dataset**, small train and test set to exam code, not pretty enough to train the final model
 
-see details in README of the subfolders :D
+
+see details in other READMEs of the subfolders :D
