@@ -1,0 +1,11 @@
+<!--pages/sample/sample.wxml-->
+<view>正持手机</view>
+<image style="width: 100px; height: 133px; background-color: #eeeeee;" src="/photo/shouji.png"></image>
+<view>臂绕环</view>
+<image style="width: 100px; height: 133px; background-color: #eeeeee;" src="/photo/huan.gif"></image>
+<view>开合跳</view>
+<image style="width: 100px; height: 133px; background-color: #eeeeee;" src="/photo/kai.gif"></image>
+<view>踏步</view>
+<image style="width: 100px; height: 133px; background-color: #eeeeee;" src="/photo/zou.gif"></image>
+<view>扩胸</view>
+<image style="width: 100px; height: 133px; background-color: #eeeeee;" src="/photo/xiong.gif"></image>

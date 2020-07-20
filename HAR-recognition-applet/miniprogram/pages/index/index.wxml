@@ -1,0 +1,38 @@
+<!--index.wxml-->
+<view class="container">
+  <view>✳请右手正持手机，每次持续检测30s✳</view>
+  <view>✳手机震动开始识别，再次震动结束识别✳</view>
+  <view>✳识别有延迟，每个动作请至少持续5组✳</view>
+  <view>✳请注意手机网络与内存✳</view>
+  <view class="tip" bindtap="sample">✳👉点击查看示例👈✳</view>
+
+  <view class="section">
+
+    <view class="picker">
+      大臂前绕环：{{orz}}
+    </view>
+    <!-- </view> -->
+
+    <!-- <view class="section"> -->
+    <view class="picker">
+      开合跳：{{jump}}
+    </view>
+    <!-- </view> -->
+    <!-- <view class="section"> -->
+    <view class="picker">
+      踏步：{{step}}
+    </view>
+    <!-- </view> -->
+    <!-- <view class="section"> -->
+
+    <view class="picker">
+      扩胸：{{chest}}
+    </view>
+
+  </view>
+
+  <button bindtap="upload">动作分析</button>
+  <button bindtap="waitstart" class='start'>开始识别</button>
+  <button bindtap="clear">清空缓存</button>
+
+</view>

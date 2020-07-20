@@ -1,0 +1,59 @@
+<!--index.wxml-->
+<view class="container">
+<view>✳请右手正持手机,掌心向机背✳</view>
+  <view>✳手机震动开始识别，再次震动结束识别✳</view>
+  <view>✳请注意手机网络与内存✳</view>
+  <view class="tip" bindtap="sample">✳👉点击查看示例👈✳</view>
+
+  <!-- <view class="section">
+    <view class="section_title">性别</view>
+    <picker bindchange="bindPickerGender" value="{{gender_index}}" range="{{gender}}">
+      <view class="picker">
+        当前选择：{{gender[gender_index]}}
+      </view>
+    </picker>
+  </view>
+  <view class="section">
+    <view class="weui-cells__title">身高(cm)</view>
+    <view class="weui-cell">
+      <input class="picker" type="number" bindinput='bindInputTall' placeholder="175" />
+    </view>
+  </view> -->
+
+  <view class="section">
+    <view class="section_title">动作</view>
+    <picker bindchange="bindPickerAct" value="{{act_index}}" range="{{act}}">
+      <view class="picker">
+        当前选择：{{act[act_index]}}
+      </view>
+    </picker>
+  </view>
+  
+  <view class="section">
+    <view class="weui-cells__title">计时(s)</view>
+    <view class="weui-cell">
+      <input class="picker" type="number" bindinput='bindInputTime' placeholder="60" />
+    </view>
+  </view>
+  <view class="section">
+    <view class="section_title">上传至</view>
+    <picker bindchange="bindPickerCol" value="{{col_index}}" range="{{collections}}">
+      <view class="picker">
+        当前选择：{{collections[col_index]}}
+      </view>
+    </picker>
+  </view>
+  <view class="picker">
+    剩余：{{left}}
+  </view>
+
+  
+  <!-- <view class="section">倒计时{{timeleft}}s</view> -->
+  <button bindtap="upload">upload</button>
+  <!-- <button bindtap="refresh">refresh</button>
+  <button bindtap="resend">resend</button> -->
+  <button bindtap="waitstart" class='start'>start</button>
+
+
+
+</view>
